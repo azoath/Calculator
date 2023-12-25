@@ -1,0 +1,115 @@
+@media screen and (max-width: 100px) {
+    .container, body{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+body{
+    background-color: rgba(245, 232, 232, 0.574);
+
+    background: rgb(248,220,225);
+    background: linear-gradient(90deg, rgb(190, 164, 169) 17%, rgb(226, 200, 233) 46%, rgba(91, 114, 232, 0.595) 100%);   
+}
+img{
+    max-height: 88vb;
+    max-width: 100vb;
+    opacity: 70%;
+    flood-opacity: 5%;
+}
+.container{
+    width: 22rem;
+    height: 29rem;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,0.5954714649531687) 0%, rgba(171,157,175,1) 84%, rgba(209,188,192,1) 100%); 
+    display: flex;
+    flex-direction: column;
+    border: 2px  black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 15px 5px rgb(163, 151, 170);
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border: 2px;
+    border-radius: 2px;
+    border-style:inset;
+    border-color: rgba(240, 219, 219, 0.989);
+    background-color: rgba(243, 237, 244, 0.896);
+    color: rgb(138, 8, 127);
+    text-shadow: 0.8px 0.8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 17px;
+}
+#result{
+    height: 13%;
+    width: 82%;
+    margin-bottom: 0.8rem;
+    border: 2px;
+    border-radius: 4px;
+    border-style:inset;
+    border-color:rgba(240, 219, 219, 0.989);
+    background-color: rgba(243, 237, 244, 0.896);
+    /* color: rgb(138, 8, 127);
+    text-shadow: 0.8px 0.8px; */
+}
+
+#btn{
+    margin-top: 0.8rem;
+    height: 13%;
+    width: 18%;
+    border: 2px;
+    border-radius: 4px;
+    border-style:inset;
+    border-color:rgba(240, 219, 219, 0.989);
+    background-color: rgba(243, 237, 244, 0.896);
+    color: rgb(138, 8, 127);
+    text-shadow: 0.8px 0.8px;
+}
+/* h3{
+    font-size: 15px;
+    font-family: fantasy;
+    color: rgb(138, 8, 127);
+    text-shadow: 0.8px 0.8px;
+} */
